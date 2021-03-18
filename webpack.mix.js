@@ -3,6 +3,7 @@ let mix = require('laravel-mix');
 mix
   .setPublicPath('dist')
   .js('src/js/app.js', '')
+  .sass('src/sass/tailwind.scss', '')
   .sass('src/sass/app.scss', '')
   .options({
     processCssUrls: false,
